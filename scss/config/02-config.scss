@@ -1,6 +1,6 @@
 .custom {
-    width: 100%;
-    height: 100%; 
+  width: 100%;
+  height: 100%; 
 }
 
 html {
@@ -8,7 +8,7 @@ html {
 }
 
 html, body {
-    min-width: 320px;
+  min-width: 320px;
 }
 
 body {
@@ -20,23 +20,25 @@ body {
 }
 
 .container {
-    width: 100%;
-    //height: 100%;
-    max-width: 100%;
-    //padding: 0px 10px;
-    margin: 0px auto;
-    align-items: center;
-    justify-content: center;
+  //width: 100%;
+  max-width: 100%;
+  padding-left: 160px;
+  padding-right: 150px;
+  //margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+  //padding: 0px 10px;
+  //height: 100%;
 
-    @media screen and (max-width: 768px) {
-      right: 0px;
-      padding: 0px;
-    }
-    
-    @media screen and (max-width: 480px) {
-      right: 0px;
-      padding: 0px;
-    }
+  @media screen and (max-width: 768px) {
+    right: 0px;
+    padding: 0px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    right: 0px;
+    padding: 0px;
+  }
 }
 
 .page-wrap {
