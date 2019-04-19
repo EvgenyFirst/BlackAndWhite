@@ -1,2 +1,2 @@
-Бесплатный PSD шаблон главной страницы сайта
-Скачан с сайта http://psd-html-css.ru/templates/besplatnyy-psd-shablon-glavnoy-stranicy-sayta
+Р‘РµСЃРїР»Р°С‚РЅС‹Р№ PSD С€Р°Р±Р»РѕРЅ РіР»Р°РІРЅРѕР№ СЃС‚СЂР°РЅРёС†С‹ СЃР°Р№С‚Р°
+РЎРєР°С‡Р°РЅ СЃ СЃР°Р№С‚Р° http://psd-html-css.ru/templates/besplatnyy-psd-shablon-glavnoy-stranicy-sayta
