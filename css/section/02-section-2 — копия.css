@@ -1,187 +1,4 @@
 @charset "UTF-8";
-/* ------------------------------------------------------------ */
-@font-face {
-  src: url(../fonts/);
-  /* Путь к файлу со шрифтом */ }
-
-@font-face {
-  src: url(../fonts/);
-  /* Путь к файлу со шрифтом */ }
-
-@font-face {
-  src: url(../fonts/);
-  /* Путь к файлу со шрифтом */ }
-
-/* ------------------------------------------------------------ */
-.custom {
-  width: 100%;
-  height: 100%; }
-
-html {
-  scroll-behavior: smooth; }
-
-html, body {
-  min-width: 320px; }
-
-body {
-  position: relative;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  color: #333; }
-
-.container {
-  width: 60%;
-  padding-left: 160px;
-  padding-right: 150px;
-  margin: 0px auto;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-  @media screen and (max-width: 768px) {
-    .container {
-      right: 0px;
-      padding: 0px; } }
-  @media screen and (max-width: 480px) {
-    .container {
-      right: 0px;
-      padding: 0px; } }
-
-.page-wrap {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-height: 100vh;
-  min-width: 100%;
-  position: relative;
-  overflow: hidden;
-  vertical-align: top; }
-
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* Section 1 */
-/* --------------------------------------------- */
-/* font-family: 'Libre Baskerville', Arial, serif; */
-.main-head {
-  min-height: 389px;
-  margin-top: -1623px; }
-
-.main-head__part1-bg {
-  min-height: 60px;
-  background-color: black; }
-
-.main-head__part2-bg {
-  height: 331px; }
-
-.main-head__part1 {
-  margin-top: -65px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.logo__main {
-  font-size: 36px;
-  font-weight: 400;
-  font-family: 'Libre Baskerville', Arial, serif;
-  color: white;
-  line-height: 0.556; }
-
-.logo__main-add {
-  color: #a1a1a1; }
-
-.logo__slogan {
-  margin-top: -23px;
-  font-size: 12px;
-  font-family: Arial, serif;
-  color: #686868;
-  line-height: 1.667; }
-
-.part1__search {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  right: 0;
-  padding-top: 16px;
-  margin-right: 19.7%; }
-
-.search-input {
-  background: #323232;
-  border: 2px solid;
-  border-color: #4c4c4c;
-  width: 352px;
-  height: 27px; }
-
-.search-btn-search {
-  background: #000000;
-  border: 2px solid;
-  border-color: #4c4c4c;
-  margin-left: 11px;
-  width: 101px;
-  height: 34px;
-  font-size: 20px;
-  font-family: Arial, serif;
-  color: white; }
-
-/* ---------- */
-/* ---------- */
-/* Slider */
-/* ---------- */
-.section-1__slider {
-  position: relative;
-  min-height: 328px;
-  background-color: black;
-  margin-top: -12.5px; }
-
-body {
-  margin: 0;
-  padding: 0; }
-
-ol, ul {
-  list-style: none; }
-
-.slider_wrap {
-  overflow: hidden;
-  margin: 0;
-  padding: 0; }
-
-.slider_wrap img {
-  width: 100%;
-  position: absolute; }
-
-.slider_wrap img:first-child {
-  display: block;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content; }
-
-.slide {
-  position: absolute;
-  bottom: 0%;
-  left: 0%;
-  z-index: 1;
-  padding-left: 21px;
-  background: url(../img/Layer3.png);
-  background-size: cover;
-  width: 98.5%; }
-
-.slide-p {
-  font-size: 14px;
-  color: #dedede;
-  line-height: 1.167;
-  font-family: Arial, serif; }
-
-/* ---------- */
-/* ---------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* Section */
@@ -193,7 +10,7 @@ ol, ul {
   background-color: white;
   border-right: 1px solid #c0c0c0;
   border-left: 1px solid #c0c0c0;
-  border-bottom: 1px solid #c0c0c0; }
+  border-bottom: 1px solid black; }
 
 .info-site__nav {
   min-height: 30px;
@@ -472,29 +289,6 @@ body.lb-disable-scrolling {
 /* --------------------------------------------- */
 /* Table */
 /* --------------------------------------------- */
-.article-header-add2 {
-  padding-left: 14px; }
-
-.article-table {
-  margin-left: 14px;
-  border-collapse: collapse;
-  border: 1px solid #d5d5d5;
-  font-size: 13px;
-  font-family: Arial, serif;
-  line-height: 1.538; }
-  .article-table tr {
-    border: 1px solid #d5d5d5; }
-    .article-table tr td {
-      border: 1px solid #d5d5d5;
-      padding-top: 10px;
-      padding-left: 10px;
-      padding-right: 111px;
-      padding-bottom: 10px; }
-
-.table-head {
-  background-color: #efefef;
-  font-weight: 600; }
-
 /* --------------------------------------------- */
 /* Table */
 /* --------------------------------------------- */
@@ -509,21 +303,8 @@ body.lb-disable-scrolling {
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
 /* Footer */
 /* --------------------------------------------- */
-/* --------------------------------------------- */
-/* Footer */
-/* --------------------------------------------- */
-.footer-content {
-  font-family: Arial, serif;
-  color: #656565;
-  font-size: 13px; }
-  .footer-content a {
-    color: #0075d0; }
-
 /* --------------------------------------------- */
 /* Footer */
 /* --------------------------------------------- */

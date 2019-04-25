@@ -11,6 +11,7 @@
     
     border-right: 1px solid #c0c0c0;
     border-left: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
 }
 .info-site__nav {
     min-height: 30px;
@@ -316,7 +317,36 @@ body.lb-disable-scrolling{
 /* Table */
 /* --------------------------------------------- */
 
+.article-header-add2 {
+    padding-left: 14px;
+}
 
+.article-table {
+    margin-left: 14px;
+    border-collapse: collapse;
+    border: 1px solid #d5d5d5;
+
+    font-size: 13px;
+    font-family: Arial, serif;
+    line-height: 1.538;
+
+     tr {
+        border: 1px solid #d5d5d5;
+
+        td {
+            border: 1px solid #d5d5d5;
+            padding-top: 10px; 
+            padding-left: 10px;
+            padding-right: 111px;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.table-head {
+   background-color: #efefef;
+   font-weight: 600;
+}
 
 /* --------------------------------------------- */
 /* Table */
@@ -333,19 +363,6 @@ body.lb-disable-scrolling{
 
 /* --------------------------------------------- */
 /* Forms */
-/* --------------------------------------------- */
-
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-
-/* --------------------------------------------- */
-/* Footer */
-/* --------------------------------------------- */
-
-
-
-/* --------------------------------------------- */
-/* Footer */
 /* --------------------------------------------- */
 
 /* --------------------------------------------- */

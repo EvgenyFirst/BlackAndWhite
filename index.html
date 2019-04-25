@@ -229,16 +229,16 @@
 
 					<!-- Table -->
 					<div>
-						<h1 class="article-header article-header-add1">
+						<h1 class="article-header article-header-add2">
 							<span class="article-header-first">T</span>able
 						</h1>
 					</div>
-					<table border="1">
+					<table class="article-table">
 						<tr>
-							<td>Lorem</td>
-							<td>Sed ut perspiciatis unde</td>
-							<td>Sed ut perspiciatis unde</td>
-							<td>Sed ut perspiciatis unde</td>
+							<td class="table-head">Lorem</td>
+							<td class="table-head">Sed ut perspiciatis unde</td>
+							<td class="table-head">Sed ut perspiciatis unde</td>
+							<td class="table-head">Sed ut perspiciatis unde</td>
 						</tr>
 						<tr>
 							<td>At vero eos et</td>
@@ -268,18 +268,57 @@
 					<!-- Table -->
 
 					<!-- Forms -->
+					<div>
+						<h1 class="article-header article-header-add2">
+							<span class="article-header-first">F</span>orms
+						</h1>
+					</div>
+
+					<form action="action.php">
+							<div class="messages"></div>
+							<br/>
+							<label>Text:</label><br/>
+							<input type="text" id="user_name" value="" /><br/>
+							
+							<label>Select:</label>
+							<p>
+								<select id="user_email">
+									<option>Option</option>
+									<option>Option1</option>
+									<option>Option2</option>
+									<option>Option3</option>
+								</select>
+							</p>
+							
+							<label><input type="checkbox" name="text_comment_1[]" id="text_comment_1" value="0">Sed ut perspiciatis unde omnis iste natus<Br></label>
+							<label><input type="radio" name="text_comment_2[]" id="text_comment_2" value="0">Lorem ipsum dolor sit amet, consectetur<Br></label>
+							
+							<label>Textarea:</label><br/>
+							<textarea id="text_comment"></textarea>
+							
+							<br/>
+							<input type="button" value="Button" id="btn_submit" />
+					</form>
+
 					<!-- Forms -->
 
-					<!-- Footer -->
-					<!-- Footer -->
 				</section>
 				<!-- Section-2 End -->
+				<!--  -->
+				<!--  -->
+				<!-- Footer -->
+				<footer>
+					<p class="footer-content">© Footer content <a href="#">Link footer</a></p>
+				</footer>
+				<!-- Footer -->
 				<!--  -->
 			</div>
 		</div>
 
 		<script type="text/javascript" src="js/slider-s1.js"></script>
 		<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+		<script type="text/javascript" src="js/form-send.js"></script>
+		
 	</body>
 
 </html>
