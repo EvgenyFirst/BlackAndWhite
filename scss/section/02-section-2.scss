@@ -4,7 +4,7 @@
 /* --------------------------------------------- */
 
 .bg-sect-2 {
-    min-height: 1231px;
+    min-height: 1446px;
 }
 .info-site {
     background-color: white;
@@ -359,8 +359,70 @@ body.lb-disable-scrolling{
 /* Forms */
 /* --------------------------------------------- */
 
+.forms {
+    padding-left: 15px;
+}
 
+.forms__text {
+    font-size: 12px;
+    font-family: Arial, serif;
+    line-height: 1.667;
+    color: black;
+}
+.text-input {
+    font-size: 12px;
+    font-family: Arial, serif;
+    line-height: 1.667;
+    color: rgb( 192, 192, 192 );
+    border: 1px solid rgb( 192, 192, 192 );
+    padding-left: 8px;
+}
+.text-input-add {
+    width: 222px;
+    height: 28px;
+}
+.forms__text-add {
+    padding-left: 8px;
+    width: 302px;
+    height: 122px;
+}
+.moreOption-add {
+    padding-top: 15px;
+}
+.moreOptionCheckbox {
+    padding-top: 20px;
+}
+.moreOptionRadio {
+    padding-top: 13px;
+    padding-bottom: 20px;
+} 
 
+.moreOptionTextarea {
+    padding-bottom: 15px;
+}
+
+.moreOptionButton {
+    padding-bottom: 24px;
+}
+.applicationButton {
+    height: 34px;
+    width: 90px;
+    background-color: #202020;
+    border: 1px solid black;
+
+    font-size: 14px;
+    font-family: Arial, serif;
+    font-weight: bold;
+    color: rgb( 255, 255, 255 );
+    line-height: 1.429;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #1e2d24;
+        color: #10b14f;
+        transition: all .5s;
+    }
+}
 /* --------------------------------------------- */
 /* Forms */
 /* --------------------------------------------- */

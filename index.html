@@ -274,31 +274,39 @@
 						</h1>
 					</div>
 
-					<form action="action.php">
-							<div class="messages"></div>
-							<br/>
-							<label>Text:</label><br/>
-							<input type="text" id="user_name" value="" /><br/>
+					<div class="forms">
+						<form id="application" action="send.php" method="POST" name="application">
+							<span class="forms__text">Text:</span><br/>
+							<input class="text-input text-input-add" name="name" id="zayavkaName" maxlength="200" placeholder="Input type text*" required />
 							
-							<label>Select:</label>
-							<p>
-								<select id="user_email">
-									<option>Option</option>
-									<option>Option1</option>
-									<option>Option2</option>
-									<option>Option3</option>
+							<div class="moreOption moreOption-add">
+								<span class="forms__text">Select: </span><br/>
+								<select class="tPlan" name="tPlan">
+									<option class="forms__text text-input-add" value="Option">Option</option>
+									<option class="forms__text text-input-add" value="Option1">Option1</option>
+									<option class="forms__text text-input-add" value="Option2">Option2</option>
+									<option class="forms__text text-input-add" value="Option3">Option3</option>
 								</select>
-							</p>
-							
-							<label><input type="checkbox" name="text_comment_1[]" id="text_comment_1" value="0">Sed ut perspiciatis unde omnis iste natus<Br></label>
-							<label><input type="radio" name="text_comment_2[]" id="text_comment_2" value="0">Lorem ipsum dolor sit amet, consectetur<Br></label>
-							
-							<label>Textarea:</label><br/>
-							<textarea id="text_comment"></textarea>
-							
-							<br/>
-							<input type="button" value="Button" id="btn_submit" />
-					</form>
+							</div>
+
+							<div class="moreOption moreOptionCheckbox">
+								<input class="adapt" type="checkbox" name="adapt[]" value="okCheckbox"/><span> Sed ut perspiciatis unde omnis iste natus</span><br/>
+							</div>  
+								
+							<div class="moreOption moreOptionRadio">    
+								<input class="seo" type="radio" name="seo[]" value="okRadio"/><span> Lorem ipsum dolor sit amet, consectetur</span><br/>
+							</div>
+	
+							<div class="moreOption moreOptionTextarea">
+								<span class="forms__text">Textarea:</span><br/>
+								<input class="forms__text forms__text-add" name="textarea" id="applicationTextarea" maxlength="500" placeholder=" " /><br/> 
+							</div>
+	
+							<div class="moreOption moreOptionButton">
+								<button class="applicationButton" type="submit" form="application">Button</button>
+							</div>
+						</form>
+					</div>
 
 					<!-- Forms -->
 
